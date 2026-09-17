@@ -1,0 +1,10 @@
+name: bsd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - -e .[dev]

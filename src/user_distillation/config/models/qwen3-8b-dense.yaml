@@ -1,0 +1,25 @@
+model_id: "Qwen/Qwen3-8B"
+
+# Architecture
+hidden_size: 4096
+num_layers: 36
+dtype: "bfloat16"
+
+layers_path: "model.layers"
+
+teacher_layer_idx: 26
+inject_layer_idx: 26
+
+h_teacher_path: "data/wilduser/qwen3-8b/h_teacher.npy"
+beliefs_filename: "beliefs_corrected.jsonl"
+
+val_records_paths:
+  - "data/wilduser/val.jsonl"
+test_records_paths:
+  - "data/wilduser/test.jsonl"
+
+save_dir: "experiments/wilduser_distill/qwen3/run02"
+
+# Qwen3 defaults to thinking mode; disable
+chat_template_kwargs:
+  enable_thinking: false

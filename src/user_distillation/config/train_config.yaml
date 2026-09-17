@@ -1,0 +1,28 @@
+model_config: "user_distillation/config/models/qwen3-8b-dense.yaml"
+device: "cuda:3"
+
+# Probe layouts
+probe_layouts_path: "data/wilduser/probe_layouts_v2.json"
+
+# Training data (h_teacher_path, val/test paths, save_dir come from model config)
+train_records_paths:
+  - "data/wilduser/train.jsonl"
+
+# W_user projector
+rank: 128
+
+# Optimiser
+lr: 1.0e-3
+weight_decay: 1.0e-4
+
+# Training loop
+epochs: 2
+limit: null
+eval_every: 5000
+train_batch_size: 4
+probe_chunk_size: 10
+
+# Checkpointing
+save_every: 1
+
+seed: 42

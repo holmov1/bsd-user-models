@@ -1,0 +1,21 @@
+model_id: "meta-llama/Llama-3.1-8B-Instruct"
+
+# Architecture
+hidden_size: 4096
+num_layers: 32
+dtype: "bfloat16"
+
+layers_path: "model.layers"
+
+inject_layer_idx: 16
+teacher_layer_idx: 16
+
+h_teacher_path: "data/wilduser/llama/h_teacher.npy"
+beliefs_filename: "beliefs_corrected.jsonl"
+
+val_records_paths:
+  - "data/wilduser/val.jsonl"
+test_records_paths:
+  - "data/wilduser/test.jsonl"
+
+save_dir: "experiments/wilduser_distill/llama/baseline"

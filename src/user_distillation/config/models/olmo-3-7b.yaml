@@ -1,0 +1,20 @@
+model_id: "allenai/Olmo-3-7B-Instruct"
+
+hidden_size: 4096
+num_layers: 32
+dtype: "bfloat16"
+
+layers_path: "model.layers"
+
+teacher_layer_idx: 18  
+inject_layer_idx: 18
+
+h_teacher_path: "data/wilduser/olmo-3-7b/h_teacher.npy"
+
+val_records_paths:
+  - "data/wilduser/val.jsonl"
+test_records_paths:
+  - "data/wilduser/test.jsonl"
+beliefs_filename: "beliefs_corrected.jsonl"
+
+probe_system: "Answer multiple-choice questions with only the single letter of your choice. Do not explain or reason -- output the letter and nothing else."
