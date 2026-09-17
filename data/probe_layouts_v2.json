@@ -1,0 +1,2168 @@
+{
+  "Gender": {
+    "canonical_order": [
+      "male",
+      "female",
+      "non_binary"
+    ],
+    "n_cats": 3,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "gender",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "male",
+            "display": "man"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "female",
+            "display": "female"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "non_binary",
+            "display": "non binary"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's gender?\nA. man\nB. female\nC. non binary\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "gender",
+        "perm": [
+          1,
+          2,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "female",
+            "display": "woman"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "non_binary",
+            "display": "non binary"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "male",
+            "display": "man"
+          }
+        ],
+        "probe_text": "Which best describes this user's gender?\nA. woman\nB. non binary\nC. man\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "gender",
+        "perm": [
+          2,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "non_binary",
+            "display": "non-binary"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "male",
+            "display": "male"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "female",
+            "display": "woman"
+          }
+        ],
+        "probe_text": "Select the most likely gender for this user:\nA. non-binary\nB. male\nC. woman\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "gender",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "male",
+            "display": "male"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "female",
+            "display": "woman"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "non_binary",
+            "display": "non-binary"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's gender is:\nA. male\nB. woman\nC. non-binary\nAnswer:"
+      }
+    ]
+  },
+  "Continent": {
+    "canonical_order": [
+      "europe",
+      "asia",
+      "africa",
+      "north_america",
+      "south_america",
+      "australia"
+    ],
+    "n_cats": 6,
+    "n_templates": 4,
+    "n_layouts": 6,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "location",
+        "perm": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "europe",
+            "display": "Europe"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "asia",
+            "display": "Asia"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "africa",
+            "display": "African"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 3,
+            "canonical_value": "north_america",
+            "display": "North American"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 4,
+            "canonical_value": "south_america",
+            "display": "Latin America"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 5,
+            "canonical_value": "australia",
+            "display": "Australia"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's location?\nA. Europe\nB. Asia\nC. African\nD. North American\nE. Latin America\nF. Australia\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "location",
+        "perm": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "asia",
+            "display": "Asian"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "africa",
+            "display": "African"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 3,
+            "canonical_value": "north_america",
+            "display": "North America"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 4,
+            "canonical_value": "south_america",
+            "display": "Latin America"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 5,
+            "canonical_value": "australia",
+            "display": "Oceania"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 0,
+            "canonical_value": "europe",
+            "display": "European"
+          }
+        ],
+        "probe_text": "Which best describes this user's location?\nA. Asian\nB. African\nC. North America\nD. Latin America\nE. Oceania\nF. European\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "geographic region",
+        "perm": [
+          2,
+          3,
+          4,
+          5,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "africa",
+            "display": "African"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 3,
+            "canonical_value": "north_america",
+            "display": "North America"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 4,
+            "canonical_value": "south_america",
+            "display": "Latin America"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 5,
+            "canonical_value": "australia",
+            "display": "Australia"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 0,
+            "canonical_value": "europe",
+            "display": "Europe"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 1,
+            "canonical_value": "asia",
+            "display": "Asian"
+          }
+        ],
+        "probe_text": "Select the most likely geographic region for this user:\nA. African\nB. North America\nC. Latin America\nD. Australia\nE. Europe\nF. Asian\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "geographic region",
+        "perm": [
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 3,
+            "canonical_value": "north_america",
+            "display": "North America"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 4,
+            "canonical_value": "south_america",
+            "display": "Latin America"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 5,
+            "canonical_value": "australia",
+            "display": "Oceania"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 0,
+            "canonical_value": "europe",
+            "display": "European"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 1,
+            "canonical_value": "asia",
+            "display": "Asia"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 2,
+            "canonical_value": "africa",
+            "display": "African"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's geographic region is:\nA. North America\nB. Latin America\nC. Oceania\nD. European\nE. Asia\nF. African\nAnswer:"
+      },
+      {
+        "layout_id": 4,
+        "template_idx": 0,
+        "attr_display": "geographic region",
+        "perm": [
+          4,
+          5,
+          0,
+          1,
+          2,
+          3
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 4,
+            "canonical_value": "south_america",
+            "display": "South America"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 5,
+            "canonical_value": "australia",
+            "display": "Australia"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "europe",
+            "display": "Europe"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 1,
+            "canonical_value": "asia",
+            "display": "Asia"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 2,
+            "canonical_value": "africa",
+            "display": "Africa"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 3,
+            "canonical_value": "north_america",
+            "display": "North American"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's geographic region?\nA. South America\nB. Australia\nC. Europe\nD. Asia\nE. Africa\nF. North American\nAnswer:"
+      },
+      {
+        "layout_id": 5,
+        "template_idx": 1,
+        "attr_display": "continent",
+        "perm": [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 5,
+            "canonical_value": "australia",
+            "display": "Australia"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "europe",
+            "display": "European"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "asia",
+            "display": "Asian"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 2,
+            "canonical_value": "africa",
+            "display": "Africa"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 3,
+            "canonical_value": "north_america",
+            "display": "North American"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 4,
+            "canonical_value": "south_america",
+            "display": "Latin America"
+          }
+        ],
+        "probe_text": "Which best describes this user's continent?\nA. Australia\nB. European\nC. Asian\nD. Africa\nE. North American\nF. Latin America\nThe answer is"
+      }
+    ]
+  },
+  "EducationLevel": {
+    "canonical_order": [
+      "school",
+      "university"
+    ],
+    "n_cats": 2,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "educational background",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "school",
+            "display": "school"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "university",
+            "display": "higher education"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's educational background?\nA. school\nB. higher education\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "educational background",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "university",
+            "display": "higher education"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "school",
+            "display": "school"
+          }
+        ],
+        "probe_text": "Which best describes this user's educational background?\nA. higher education\nB. school\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "level of education",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "school",
+            "display": "school"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "university",
+            "display": "college"
+          }
+        ],
+        "probe_text": "Select the most likely level of education for this user:\nA. school\nB. college\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "education level",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "university",
+            "display": "higher education"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "school",
+            "display": "school"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's education level is:\nA. higher education\nB. school\nAnswer:"
+      }
+    ]
+  },
+  "PoliticalOrientation": {
+    "canonical_order": [
+      "apolitical",
+      "center",
+      "green",
+      "left",
+      "right"
+    ],
+    "n_cats": 5,
+    "n_templates": 4,
+    "n_layouts": 5,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "political views",
+        "perm": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "apolitical",
+            "display": "politically neutral"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "center",
+            "display": "centrist"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "green",
+            "display": "environmentalist"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 3,
+            "canonical_value": "left",
+            "display": "left"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 4,
+            "canonical_value": "right",
+            "display": "right"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's political views?\nA. politically neutral\nB. centrist\nC. environmentalist\nD. left\nE. right\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "political orientation",
+        "perm": [
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "center",
+            "display": "centrist"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "green",
+            "display": "environmentalist"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 3,
+            "canonical_value": "left",
+            "display": "leftist"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 4,
+            "canonical_value": "right",
+            "display": "right"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 0,
+            "canonical_value": "apolitical",
+            "display": "apolitical"
+          }
+        ],
+        "probe_text": "Which best describes this user's political orientation?\nA. centrist\nB. environmentalist\nC. leftist\nD. right\nE. apolitical\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "political orientation",
+        "perm": [
+          2,
+          3,
+          4,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "green",
+            "display": "green"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 3,
+            "canonical_value": "left",
+            "display": "left"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 4,
+            "canonical_value": "right",
+            "display": "right"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 0,
+            "canonical_value": "apolitical",
+            "display": "politically neutral"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 1,
+            "canonical_value": "center",
+            "display": "center"
+          }
+        ],
+        "probe_text": "Select the most likely political orientation for this user:\nA. green\nB. left\nC. right\nD. politically neutral\nE. center\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "political views",
+        "perm": [
+          3,
+          4,
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 3,
+            "canonical_value": "left",
+            "display": "left-wing"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 4,
+            "canonical_value": "right",
+            "display": "right"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "apolitical",
+            "display": "apolitical"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 1,
+            "canonical_value": "center",
+            "display": "center"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 2,
+            "canonical_value": "green",
+            "display": "environmentalist"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's political views is:\nA. left-wing\nB. right\nC. apolitical\nD. center\nE. environmentalist\nAnswer:"
+      },
+      {
+        "layout_id": 4,
+        "template_idx": 0,
+        "attr_display": "political views",
+        "perm": [
+          4,
+          0,
+          1,
+          2,
+          3
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 4,
+            "canonical_value": "right",
+            "display": "right-wing"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "apolitical",
+            "display": "politically neutral"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "center",
+            "display": "center"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 2,
+            "canonical_value": "green",
+            "display": "green"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 3,
+            "canonical_value": "left",
+            "display": "leftist"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's political views?\nA. right-wing\nB. politically neutral\nC. center\nD. green\nE. leftist\nAnswer:"
+      }
+    ]
+  },
+  "IncomeLevel": {
+    "canonical_order": [
+      "low",
+      "middle",
+      "high"
+    ],
+    "n_cats": 3,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "financial status",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "low income"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "middle",
+            "display": "middle class"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "high",
+            "display": "wealthy"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's financial status?\nA. low income\nB. middle class\nC. wealthy\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "financial status",
+        "perm": [
+          1,
+          2,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "middle",
+            "display": "middle class"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "high",
+            "display": "high income"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "low income"
+          }
+        ],
+        "probe_text": "Which best describes this user's financial status?\nA. middle class\nB. high income\nC. low income\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "income level",
+        "perm": [
+          2,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "high",
+            "display": "wealthy"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "lower income"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "middle",
+            "display": "middle income"
+          }
+        ],
+        "probe_text": "Select the most likely income level for this user:\nA. wealthy\nB. lower income\nC. middle income\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "financial status",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "low income"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "middle",
+            "display": "middle class"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "high",
+            "display": "high income"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's financial status is:\nA. low income\nB. middle class\nC. high income\nAnswer:"
+      }
+    ]
+  },
+  "AITrustLevel": {
+    "canonical_order": [
+      "skeptical",
+      "trusting"
+    ],
+    "n_cats": 2,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "AI trust level",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "skeptical",
+            "display": "distrustful of AI"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "trusting",
+            "display": "trusting of AI"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's AI trust level?\nA. distrustful of AI\nB. trusting of AI\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "level of trust in AI",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "trusting",
+            "display": "trusting of AI"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "skeptical",
+            "display": "cautious about AI"
+          }
+        ],
+        "probe_text": "Which best describes this user's level of trust in AI?\nA. trusting of AI\nB. cautious about AI\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "level of trust in AI",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "skeptical",
+            "display": "skeptical of AI"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "trusting",
+            "display": "moderately to fully trusting of AI"
+          }
+        ],
+        "probe_text": "Select the most likely level of trust in AI for this user:\nA. skeptical of AI\nB. moderately to fully trusting of AI\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "level of trust in AI",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "trusting",
+            "display": "trusting of AI"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "skeptical",
+            "display": "skeptical of AI"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's level of trust in AI is:\nA. trusting of AI\nB. skeptical of AI\nAnswer:"
+      }
+    ]
+  },
+  "AIErrorTolerance": {
+    "canonical_order": [
+      "low",
+      "high"
+    ],
+    "n_cats": 2,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "AI error tolerance",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "expects near-perfection"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "high",
+            "display": "patient with errors"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's AI error tolerance?\nA. expects near-perfection\nB. patient with errors\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "tolerance for AI errors",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "high",
+            "display": "forgiving of mistakes"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "low tolerance for errors"
+          }
+        ],
+        "probe_text": "Which best describes this user's tolerance for AI errors?\nA. forgiving of mistakes\nB. low tolerance for errors\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "acceptance of AI mistakes",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "low tolerance for errors"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "high",
+            "display": "high tolerance for errors"
+          }
+        ],
+        "probe_text": "Select the most likely acceptance of AI mistakes for this user:\nA. low tolerance for errors\nB. high tolerance for errors\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "tolerance for AI errors",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "high",
+            "display": "high tolerance for errors"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "low",
+            "display": "low tolerance for errors"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's tolerance for AI errors is:\nA. high tolerance for errors\nB. low tolerance for errors\nAnswer:"
+      }
+    ]
+  },
+  "AIInteractionStyle": {
+    "canonical_order": [
+      "transactional",
+      "conversational",
+      "hostile"
+    ],
+    "n_cats": 3,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "communication style with AI",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "transactional",
+            "display": "transactional"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "conversational",
+            "display": "friendly and chatty"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "hostile",
+            "display": "hostile"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's communication style with AI?\nA. transactional\nB. friendly and chatty\nC. hostile\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "communication style with AI",
+        "perm": [
+          1,
+          2,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "conversational",
+            "display": "conversational"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "hostile",
+            "display": "skeptical and challenging"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "transactional",
+            "display": "transactional"
+          }
+        ],
+        "probe_text": "Which best describes this user's communication style with AI?\nA. conversational\nB. skeptical and challenging\nC. transactional\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "communication style with AI",
+        "perm": [
+          2,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "hostile",
+            "display": "confrontational"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "transactional",
+            "display": "transactional"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "conversational",
+            "display": "friendly and chatty"
+          }
+        ],
+        "probe_text": "Select the most likely communication style with AI for this user:\nA. confrontational\nB. transactional\nC. friendly and chatty\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "interaction style with AI",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "transactional",
+            "display": "task-focused"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "conversational",
+            "display": "conversational"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "hostile",
+            "display": "skeptical and challenging"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's interaction style with AI is:\nA. task-focused\nB. conversational\nC. skeptical and challenging\nAnswer:"
+      }
+    ]
+  },
+  "UserIntent": {
+    "canonical_order": [
+      "benign",
+      "adversarial"
+    ],
+    "n_cats": 2,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "underlying intent",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "benign",
+            "display": "good-faith"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "adversarial",
+            "display": "abusive"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's underlying intent?\nA. good-faith\nB. abusive\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "intent",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "adversarial",
+            "display": "adversarial"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "benign",
+            "display": "harmless"
+          }
+        ],
+        "probe_text": "Which best describes this user's intent?\nA. adversarial\nB. harmless\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "intent",
+        "perm": [
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "benign",
+            "display": "benign"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "adversarial",
+            "display": "abusive"
+          }
+        ],
+        "probe_text": "Select the most likely intent for this user:\nA. benign\nB. abusive\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "intent",
+        "perm": [
+          1,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "adversarial",
+            "display": "manipulative"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "benign",
+            "display": "good-faith"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's intent is:\nA. manipulative\nB. good-faith\nAnswer:"
+      }
+    ]
+  },
+  "UserReasoningComplexity": {
+    "canonical_order": [
+      "simple",
+      "moderate",
+      "sophisticated"
+    ],
+    "n_cats": 3,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "reasoning complexity",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "simple",
+            "display": "basic argumentation"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "moderate",
+            "display": "moderately complex reasoning"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "sophisticated",
+            "display": "sophisticated reasoning"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's reasoning complexity?\nA. basic argumentation\nB. moderately complex reasoning\nC. sophisticated reasoning\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "reasoning complexity",
+        "perm": [
+          1,
+          2,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "moderate",
+            "display": "moderate reasoning complexity"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "sophisticated",
+            "display": "advanced argumentation"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "simple",
+            "display": "basic argumentation"
+          }
+        ],
+        "probe_text": "Which best describes this user's reasoning complexity?\nA. moderate reasoning complexity\nB. advanced argumentation\nC. basic argumentation\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "reasoning complexity",
+        "perm": [
+          2,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "sophisticated",
+            "display": "advanced argumentation"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "simple",
+            "display": "straightforward thinking"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "moderate",
+            "display": "moderate reasoning complexity"
+          }
+        ],
+        "probe_text": "Select the most likely reasoning complexity for this user:\nA. advanced argumentation\nB. straightforward thinking\nC. moderate reasoning complexity\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "reasoning complexity",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "simple",
+            "display": "simple reasoning"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "moderate",
+            "display": "moderately complex reasoning"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "sophisticated",
+            "display": "complex, nuanced reasoning"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's reasoning complexity is:\nA. simple reasoning\nB. moderately complex reasoning\nC. complex, nuanced reasoning\nAnswer:"
+      }
+    ]
+  },
+  "UserTruthSeekingIntent": {
+    "canonical_order": [
+      "truth_seeking",
+      "confirmation_seeking",
+      "persuasion_seeking"
+    ],
+    "n_cats": 3,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "underlying dialogue goal",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "truth_seeking",
+            "display": "seeking the truth"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "confirmation_seeking",
+            "display": "confirmation-seeking"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "persuasion_seeking",
+            "display": "seeking to persuade or convince"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's underlying dialogue goal?\nA. seeking the truth\nB. confirmation-seeking\nC. seeking to persuade or convince\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "intent behind the inquiry",
+        "perm": [
+          1,
+          2,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "confirmation_seeking",
+            "display": "seeking validation of existing beliefs"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "persuasion_seeking",
+            "display": "looking to win an argument"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "truth_seeking",
+            "display": "seeking the truth"
+          }
+        ],
+        "probe_text": "Which best describes this user's intent behind the inquiry?\nA. seeking validation of existing beliefs\nB. looking to win an argument\nC. seeking the truth\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "motivation behind the questions",
+        "perm": [
+          2,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "persuasion_seeking",
+            "display": "persuasion-seeking"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "truth_seeking",
+            "display": "genuinely seeking accurate information"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "confirmation_seeking",
+            "display": "seeking validation of existing beliefs"
+          }
+        ],
+        "probe_text": "Select the most likely motivation behind the questions for this user:\nA. persuasion-seeking\nB. genuinely seeking accurate information\nC. seeking validation of existing beliefs\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "underlying dialogue goal",
+        "perm": [
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "truth_seeking",
+            "display": "genuinely seeking accurate information"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "confirmation_seeking",
+            "display": "confirmation-seeking"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "persuasion_seeking",
+            "display": "seeking to persuade or convince"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's underlying dialogue goal is:\nA. genuinely seeking accurate information\nB. confirmation-seeking\nC. seeking to persuade or convince\nAnswer:"
+      }
+    ]
+  },
+  "PerceivedEmotionalState": {
+    "canonical_order": [
+      "neutral",
+      "stressed",
+      "frustrated",
+      "angry",
+      "sad",
+      "excited"
+    ],
+    "n_cats": 6,
+    "n_templates": 4,
+    "n_layouts": 6,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "perceived emotional state",
+        "perm": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "neutral",
+            "display": "unemotional tone"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "stressed",
+            "display": "overwhelmed"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "frustrated",
+            "display": "frustrated"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 3,
+            "canonical_value": "angry",
+            "display": "angry"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 4,
+            "canonical_value": "sad",
+            "display": "sad"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 5,
+            "canonical_value": "excited",
+            "display": "enthusiastic"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's perceived emotional state?\nA. unemotional tone\nB. overwhelmed\nC. frustrated\nD. angry\nE. sad\nF. enthusiastic\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "apparent emotional baseline",
+        "perm": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "stressed",
+            "display": "under pressure"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "frustrated",
+            "display": "annoyed"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 3,
+            "canonical_value": "angry",
+            "display": "angry"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 4,
+            "canonical_value": "sad",
+            "display": "sad"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 5,
+            "canonical_value": "excited",
+            "display": "excited"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 0,
+            "canonical_value": "neutral",
+            "display": "unemotional tone"
+          }
+        ],
+        "probe_text": "Which best describes this user's apparent emotional baseline?\nA. under pressure\nB. annoyed\nC. angry\nD. sad\nE. excited\nF. unemotional tone\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "perceived emotional state",
+        "perm": [
+          2,
+          3,
+          4,
+          5,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "frustrated",
+            "display": "irritated"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 3,
+            "canonical_value": "angry",
+            "display": "angry"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 4,
+            "canonical_value": "sad",
+            "display": "sad"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 5,
+            "canonical_value": "excited",
+            "display": "excited"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 0,
+            "canonical_value": "neutral",
+            "display": "unemotional tone"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 1,
+            "canonical_value": "stressed",
+            "display": "overwhelmed"
+          }
+        ],
+        "probe_text": "Select the most likely perceived emotional state for this user:\nA. irritated\nB. angry\nC. sad\nD. excited\nE. unemotional tone\nF. overwhelmed\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "perceived emotional state",
+        "perm": [
+          3,
+          4,
+          5,
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 3,
+            "canonical_value": "angry",
+            "display": "furious"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 4,
+            "canonical_value": "sad",
+            "display": "expressing grief"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 5,
+            "canonical_value": "excited",
+            "display": "eager"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 0,
+            "canonical_value": "neutral",
+            "display": "emotionally neutral"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 1,
+            "canonical_value": "stressed",
+            "display": "stressed"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 2,
+            "canonical_value": "frustrated",
+            "display": "annoyed"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's perceived emotional state is:\nA. furious\nB. expressing grief\nC. eager\nD. emotionally neutral\nE. stressed\nF. annoyed\nAnswer:"
+      },
+      {
+        "layout_id": 4,
+        "template_idx": 0,
+        "attr_display": "current mood",
+        "perm": [
+          4,
+          5,
+          0,
+          1,
+          2,
+          3
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 4,
+            "canonical_value": "sad",
+            "display": "unhappy"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 5,
+            "canonical_value": "excited",
+            "display": "excited"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "neutral",
+            "display": "emotionally neutral"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 1,
+            "canonical_value": "stressed",
+            "display": "under pressure"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 2,
+            "canonical_value": "frustrated",
+            "display": "annoyed"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 3,
+            "canonical_value": "angry",
+            "display": "angry"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's current mood?\nA. unhappy\nB. excited\nC. emotionally neutral\nD. under pressure\nE. annoyed\nF. angry\nAnswer:"
+      },
+      {
+        "layout_id": 5,
+        "template_idx": 1,
+        "attr_display": "current mood",
+        "perm": [
+          5,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 5,
+            "canonical_value": "excited",
+            "display": "excited"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "neutral",
+            "display": "unemotional tone"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "stressed",
+            "display": "overwhelmed"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 2,
+            "canonical_value": "frustrated",
+            "display": "irritated"
+          },
+          {
+            "letter": "E",
+            "canonical_idx": 3,
+            "canonical_value": "angry",
+            "display": "furious"
+          },
+          {
+            "letter": "F",
+            "canonical_idx": 4,
+            "canonical_value": "sad",
+            "display": "sad"
+          }
+        ],
+        "probe_text": "Which best describes this user's current mood?\nA. excited\nB. unemotional tone\nC. overwhelmed\nD. irritated\nE. furious\nF. sad\nThe answer is"
+      }
+    ]
+  },
+  "EvidencePreference": {
+    "canonical_order": [
+      "anecdotal",
+      "intuitive",
+      "empirical",
+      "theoretical"
+    ],
+    "n_cats": 4,
+    "n_templates": 4,
+    "n_layouts": 4,
+    "layouts": [
+      {
+        "layout_id": 0,
+        "template_idx": 0,
+        "attr_display": "preferred type of evidence",
+        "perm": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 0,
+            "canonical_value": "anecdotal",
+            "display": "personal stories"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 1,
+            "canonical_value": "intuitive",
+            "display": "intuitive reasoning"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 2,
+            "canonical_value": "empirical",
+            "display": "empirical evidence"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 3,
+            "canonical_value": "theoretical",
+            "display": "theoretical reasoning"
+          }
+        ],
+        "probe_text": "What is most likely true about this user's preferred type of evidence?\nA. personal stories\nB. intuitive reasoning\nC. empirical evidence\nD. theoretical reasoning\nAnswer:"
+      },
+      {
+        "layout_id": 1,
+        "template_idx": 1,
+        "attr_display": "preferred type of evidence",
+        "perm": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 1,
+            "canonical_value": "intuitive",
+            "display": "common sense"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 2,
+            "canonical_value": "empirical",
+            "display": "data-driven evidence"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 3,
+            "canonical_value": "theoretical",
+            "display": "conceptual frameworks"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 0,
+            "canonical_value": "anecdotal",
+            "display": "personal stories"
+          }
+        ],
+        "probe_text": "Which best describes this user's preferred type of evidence?\nA. common sense\nB. data-driven evidence\nC. conceptual frameworks\nD. personal stories\nThe answer is"
+      },
+      {
+        "layout_id": 2,
+        "template_idx": 2,
+        "attr_display": "evidence preference",
+        "perm": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 2,
+            "canonical_value": "empirical",
+            "display": "scientific studies"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 3,
+            "canonical_value": "theoretical",
+            "display": "theoretical reasoning"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 0,
+            "canonical_value": "anecdotal",
+            "display": "individual experience"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 1,
+            "canonical_value": "intuitive",
+            "display": "common sense"
+          }
+        ],
+        "probe_text": "Select the most likely evidence preference for this user:\nA. scientific studies\nB. theoretical reasoning\nC. individual experience\nD. common sense\nAnswer:"
+      },
+      {
+        "layout_id": 3,
+        "template_idx": 3,
+        "attr_display": "style of supporting evidence favored",
+        "perm": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "options": [
+          {
+            "letter": "A",
+            "canonical_idx": 3,
+            "canonical_value": "theoretical",
+            "display": "conceptual frameworks"
+          },
+          {
+            "letter": "B",
+            "canonical_idx": 0,
+            "canonical_value": "anecdotal",
+            "display": "personal stories"
+          },
+          {
+            "letter": "C",
+            "canonical_idx": 1,
+            "canonical_value": "intuitive",
+            "display": "common sense"
+          },
+          {
+            "letter": "D",
+            "canonical_idx": 2,
+            "canonical_value": "empirical",
+            "display": "scientific studies"
+          }
+        ],
+        "probe_text": "A reader would conclude the user's style of supporting evidence favored is:\nA. conceptual frameworks\nB. personal stories\nC. common sense\nD. scientific studies\nAnswer:"
+      }
+    ]
+  }
+}
