@@ -7,8 +7,8 @@ dtype: "bfloat16"
 
 layers_path: "model.layers"
 
-teacher_layer_idx: 26
-inject_layer_idx: 26
+teacher_layer_idx: 18
+inject_layer_idx: 18
 
 h_teacher_path: "data/wilduser/qwen3-8b/h_teacher.npy"
 beliefs_filename: "beliefs_corrected.jsonl"
