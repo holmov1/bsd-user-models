@@ -39,11 +39,3 @@ Without Conda, any Python ≥3.10 works:
 ```bash
 pip install -e ".[dev]"
 ```
-
-## Citation
-
-Under review at ICLR 2027.
-
-```bibtex
-
-```
